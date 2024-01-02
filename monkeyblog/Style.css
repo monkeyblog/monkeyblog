@@ -1,0 +1,106 @@
+
+/*GENERAL_SETTINGS*/
+
+* {
+	margin: 0;
+	padding: 0;
+	max-height: 100%;
+}
+
+
+body {
+	background-color: rgb(235, 231, 222);
+	color: rgb(58, 53, 46);
+	font-family: 'Noto Sans',Helvetica,Arial,sans-serif;
+}
+
+body {
+	height: 150px;
+  }
+  
+  body::-webkit-scrollbar {
+	display: none;
+  }
+
+nav li button a {
+	color: rgb(235, 231, 222);
+	text-decoration: none;
+}
+
+/*BUTTONS*/
+
+nav li button{
+	    display: inline-block;
+        background-color: rgb(84, 77, 70);
+        padding: 1rem;
+        color: rgb(235, 231, 222);
+        text-align: center;
+        border: none;
+        cursor: pointer;
+  		transition: all 0.3s ease;
+  		width: 240px;
+}
+
+nav li button a{
+	color: rgb(235, 231, 222);
+}
+
+
+
+nav li button a:hover{
+	color: rgb(235, 231, 222);
+}
+
+nav li button:hover{
+	text-decoration: none;
+	padding: 1rem;
+	background-color: rgb(62, 57, 52);
+}
+
+/*LISTS_AND_LOOKS*/
+
+nav ul{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0px;
+	border-bottom: 3px solid rgb(45, 41, 38);
+	text-decoration: none;
+	align-content: center;
+	overflow: hidden;
+	background-color: rgb(84, 77, 70);
+	color: rgb(235, 231, 222);
+	font-weight: 400;
+	text-align: center;
+	max-width: 100%;
+	justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    position: relative;
+}
+
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav ul li div {
+	position: fixed;
+	display:inline;
+}
+
+/* not navbar */
+
+p {
+	margin-left: 2rem;
+	margin-right: 2rem;
+	text-align: justify;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+
+
